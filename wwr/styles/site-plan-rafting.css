@@ -98,6 +98,7 @@ p {
   background-color: var(--accent3-color);
 }
 p.colored {
+
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
