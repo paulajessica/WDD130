@@ -1,5 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Ropa+Sans&display=swap');
+
 :root {
+    
+    --font-family: 'Boogaloo', 'Ropa Sans', sans-serif;
+
     /* color patette*/
     --primary-color: #ffffff ;
     --secondary-color: #fad264 ;
@@ -12,7 +17,15 @@
 body {
 
     background-color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+h2 {
+    margin: 0;
+}
+
 header {
     
     background-color: var(--secondary-color);
@@ -24,14 +37,19 @@ nav a:hover {
 }
 .book, .join{
 
-    background-color: var(--accent3-color);
+    background-color: var(--accent1-color);
     color: var(--primary-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
 
     background-color: var(--primary-color);
     color: var(--accent3-color);
+    
 }
 #background{
 
@@ -42,6 +60,8 @@ nav a:hover {
     
     background-color: var(--accent3-color);
     color: var(--primary-color);
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
 
@@ -50,12 +70,16 @@ nav a:hover {
 .msg p{
 
     color: var(--primary-color);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
 
     background-color: var(--accent3-color);
-    color: var(--primary-color);    
+    color: var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 200px;    
 }
 footer h3 {
 
@@ -81,17 +105,24 @@ footer h3 a{
     max-width: 1600px;
     margin: 0 auto;
 }
+footer .social img {
+
+    padding-top: 15px;
+}
 nav a{
 
     font-size: 1.5em;
     color: var(--accent1-color);
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 .home-title{
 
-    font-size: 1.5em;
+    font-size: 2em;
     color: var(--accent1-color);
+    font-family: var(--font-family);
+    margin-top: 10px;
 }
 h4 {
 
@@ -121,5 +152,19 @@ main section{
 .icon {
 
     width: 80px;
+    padding-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+
+}
+.rivers-card, .camping-card, rapids-card {
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid var(--accent3-color);
 }
 
+main section img{
+    box-sizing: border-box;
+}
