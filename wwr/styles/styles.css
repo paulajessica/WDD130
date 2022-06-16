@@ -294,7 +294,7 @@ main section img{
     grid-column: 2/3;
     grid-row: 1/2;
     margin: 0 100px 100px 100px;
-    *text-align: left;
+    text-align: left;
 }
 section h1{
     text-align: center;
