@@ -326,6 +326,7 @@ section h1{
     margin: 100px 100px 100px 100px;
     border-radius: 5px;
     border: 10px solid var(--accent3-color);
+    align-items: right;
 }
 .image-two {
     text-align: right;
