@@ -27,13 +27,14 @@ header {
     
     background-color: #164C45;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto;   
     
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+       
 }
 
 nav a:hover {
@@ -59,6 +60,7 @@ nav a{
 .welcome {
     text-align: center;
     margin: 50px 150px 100px 150px;
+
 }
 
 .logo-img {
@@ -117,5 +119,12 @@ footer div a {
     text-align: center;
     text-decoration: none;
     padding: 25px 50px;
+
+}
+footer div a:hover{
+    transform: scale(1.5);
+}
+footer h3:hover {
+    transform: scale(1.5);
 
 }
