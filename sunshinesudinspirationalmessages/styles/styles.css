@@ -181,3 +181,37 @@ footer h3:hover {
     border: 8px solid #164C45;
 }
 
+.subpage-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.theyinspiregenerations {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    text-align: center;
+    margin: 150px 150px 150px 150px;
+
+}
+
+.bulb-img {
+    margin: 100px 30px 30px 30px;
+    border-radius: 5px;
+    text-align: center;
+    height: 300px;
+}
+
+.flowers-img {
+    margin: 50px 30px 180px 30px;
+    border-radius: 5px;
+    text-align: center;
+    height: 300px;
+}
+
+.bulb-img img, .flowers-img img{
+    width: 90%;
+    max-height: 100%;
+    border-radius: 5px;
+    border: 8px solid #164C45;
+}
+
